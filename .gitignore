@@ -4,7 +4,6 @@
 
 # User-specific files
 .Ruserdata
-.Rhistory
 
 # Example code in package build process
 *-Ex.R
@@ -38,6 +37,3 @@ vignettes/*.pdf
 
 # misc
 .DS_Store
-
-# working files
-Intro-to-r/*
