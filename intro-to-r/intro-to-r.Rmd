@@ -17,7 +17,7 @@ options(htmltools.dir.version = FALSE)
 set.seed(100)
 ```
 
-```{r functions, echo = FALSE}
+```{r functions, include = FALSE}
 colorise <- function(x, color) {
   if (knitr::is_latex_output()) {
     sprintf("\\textcolor{%s}{%s}", color, x)
@@ -450,7 +450,7 @@ Let's inspect this now (gettng the first 4 rows, and all columns with square bra
 
 .pull-right[
 
-```{r}
+```{r lexdec-subj-inspect}
 lexdec_subj[1:4, ]
 ```
 
@@ -663,7 +663,7 @@ library(broom)
 
 Let's see how `broom` works, using the `tidy` function (I'll round these values, too):
 
-```{r}
+```{r broom-tidy-model-output}
 lexdec_mod %>% 
   tidy() %>% 
   mutate_if(is.numeric, round, 3)
