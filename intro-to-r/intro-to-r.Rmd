@@ -2,7 +2,7 @@
 title: "Introduction to R"
 author: "Glenn Williams"
 institute: "University of Sunderland"
-date: "26-03-2020 (updated: `r Sys.Date()`)"
+date: "16-03-2020 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -673,7 +673,7 @@ lexdec_mod %>%
 
 Save our tidied output with:
 
-```{r save-model-output}
+```{r save-model-output, eval = FALSE}
 write_csv(tidy(lexdec_mod), "lexdec_mod.csv")
 ```
 

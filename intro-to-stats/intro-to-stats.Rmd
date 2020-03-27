@@ -1,9 +1,8 @@
 ---
 title: "Introducton to Statistics"
-subtitle: "made with R"
 author: "Glenn Williams"
 institute: "University of Sunderland"
-date: "2020/03/16 (updated: `r Sys.Date()`)"
+date: "16-03-2020 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
     lib_dir: libs
